@@ -1,0 +1,30 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+/*
+  Figma de Referencia:
+  https://www.figma.com/file/ueRxknyuThaY7BMDZNaxvY/Demo---Kenzie-Delivery?type=design&node-id=0-1&mode=design&t=6oVgAOLkCCJRLhIk-0
+*/
+
+/* Estilos Globais */
+:root {
+  --font-family-primary: "Inter", sans-serif;
+
+  /* COLORS */
+  --color-primary: #ffc700;
+
+  /* A até F (Hexa) 
+    0 até 9 (decimal)
+  */
+  --color-gray-100: #000;
+  --color-gray-500: #eee;
+  --color-gray-700: #fafafa;
+  --color-gray-900: #fff;
+}
+
+body {
+  /* font-family: "Inter", sans-serif; */
+  font-family: var(--font-family-primary);
+  color: var(--color-gray-100);
+  background-color: var(--color-gray-900);
+}
