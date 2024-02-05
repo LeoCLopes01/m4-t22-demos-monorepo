@@ -1,0 +1,24 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --font-family-primary: "Inter", sans-serif;
+  /* 
+    HEXA DECIMAL 
+    6  (A B C D E F)
+    10 (0 A 9)
+  */
+  --color-primary: #ffc700;
+
+  /* GRAY SCALE */
+  --color-gray-100: #000;
+  --color-gray-500: #eee;
+  --color-gray-700: #fafafa;
+  --color-gray-900: #fff;
+  /* --color-gray-900: blue; */
+}
+
+body {
+  font-family: var(--font-family-primary);
+  background-color: var(--color-gray-900);
+}
