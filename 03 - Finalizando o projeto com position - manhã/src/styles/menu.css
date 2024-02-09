@@ -1,0 +1,55 @@
+.menu__section {
+  padding-bottom: 2rem;
+}
+
+.menu__title {
+  font-size: 2.25rem;
+  padding-block: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.menu__food-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.food__item {
+  /* DISPLAY GRID COMO ALTERNATIVA PARA CASOS EM QUE O FLEX NAO CUMPRE O NECESSARIO */
+  flex-grow: 1;
+  background-color: var(--color-gray-500);
+
+  position: relative;
+}
+
+.food__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.9375rem;
+
+  padding: 1rem;
+}
+
+.food__title {
+  font-size: 1.5rem;
+}
+
+.food__add-button {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-gray-100);
+  border-radius: 8px;
+  padding: 0.5rem 0.625rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5625rem;
+
+  position: absolute;
+  right: 0.5625rem;
+  top: 0.6875rem;
+  /* bottom: 30px; */
+}
