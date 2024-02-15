@@ -76,11 +76,17 @@ function showCarsModule(carArray) {
   // carArray.forEach((car) => console.log(Object.keys(car)));
   // carArray.forEach((car) => console.log(Object.entries(car)));
 
-  for (let i = 0; i < carArray.length; i++) {
-    for (const car of Object.entries(carArray[i])) {
-      console.log(car);
-    }
-  }
+  // for (let i = 0; i < carArray.length; i++) {
+  //   for (const car of Object.entries(carArray[i])) {
+  //     console.log(car);
+  //   }
+  // }
+
+  const fullNameCarArray = carArray.map(
+    ({ marca, modelo }) => `${marca} - ${modelo}`
+  );
+
+  console.log(fullNameCarArray);
 }
 
 showCarsModule(carList);
