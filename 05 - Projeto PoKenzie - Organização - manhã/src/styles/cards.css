@@ -71,6 +71,6 @@
 .card__fav {
   position: absolute;
   padding: 0.5rem 0;
-
+  /* PREENCHENDO O ICONE */
   color: #ffd700;
 }
