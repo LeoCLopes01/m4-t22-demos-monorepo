@@ -1,8 +1,8 @@
-const pokemonList = [
+export const pokemonList = [
   {
     id: 1,
     name: "bulbassaur",
-    img: "src/assets/bulbassaur.svg",
+    img: "src/assets/imgs/bulbassaur.svg",
     types: ["grass", "poison"],
     hp: 45,
     attack: 25,
@@ -12,7 +12,7 @@ const pokemonList = [
   {
     id: 2,
     name: "raichu",
-    img: "src/assets/raichu.svg",
+    img: "src/assets/imgs/raichu.svg",
     types: ["eletric"],
     hp: 60,
     attack: 90,
@@ -22,7 +22,7 @@ const pokemonList = [
   {
     id: 3,
     name: "squirtle",
-    img: "src/assets/squirtle.svg",
+    img: "src/assets/imgs/squirtle.svg",
     types: ["water"],
     hp: 60,
     attack: 48,
